@@ -1,0 +1,17 @@
+*.js
+!jest.config.js
+*.d.ts
+node_modules
+.idea
+!lambda/*.js
+!lambda/*.py
+
+# CDK asset staging directory
+.cdk.staging
+cdk.out
+
+.virtualenv
+.coverage
+test-results
+.pytest_cache
+.idea
